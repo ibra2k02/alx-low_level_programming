@@ -1,16 +1,20 @@
 #include "main.h"
-/**
-  *main - Entry point
-  *Desctiption: prints the alphabet, in lowercase
-  *Return: Always 0
-  */
-int main(void)
-{
-	int i;
+#include <unistd.h>
 
-	for (i = 97; i <= 122; i++)
+/**
+ * print_alphabet - Entry point
+ * Return:0
+ */
+
+void print_alphabet(void)
+{
+	char c = 'a';
+
+	while (c <= 'z')
 	{
-		_putchar(i);
+		_putchar(c);
+		c++;
+
 	}
 	_putchar('\n');
 
