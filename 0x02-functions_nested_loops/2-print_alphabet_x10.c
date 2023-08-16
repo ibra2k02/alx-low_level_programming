@@ -1,10 +1,10 @@
 #include "main.h"
 /**
-  *main - Entry point
+  *print_alphabet_x10 - Entry point
   *Desctiption: prints the alphabet 10 times
   *Return: Always 0
   */
-int main(void)
+void print_alphabet_x10(void)
 {
 	int i;
 	int j;
@@ -15,6 +15,6 @@ int main(void)
 		{
 			_putchar(j);
 		}
-		_putchar('\n')
+		_putchar('\n');
 	}
 }
